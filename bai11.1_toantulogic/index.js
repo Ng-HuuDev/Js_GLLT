@@ -31,11 +31,11 @@ console.log(!(i > 0));
 
 // --------bai 5: tinh CN, S hinh chu nhat
 
-let chieuDai = prompt("Nhập chiều dài");
-let chieuRong = prompt("Nhập chiều rộng");
+let chieuDai = Number(prompt("Nhập chiều dài"));
+let chieuRong = Number(prompt("Nhập chiều rộng"));
 
 let dienTich = chieuDai * chieuRong;
 console.log("🚀 ~ dienTich:", dienTich);
 
-let chuVi = chieuDai * 2;
+let chuVi = (chieuDai + chieuRong) * 2;
 console.log("🚀 ~ chuVi:", chuVi);
